@@ -1,0 +1,109 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #e9909a;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#library-system {
+    float: left;
+}
+
+.navbar-link:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.container{
+    max-width: 800px;
+    margin: 10px auto;
+    padding:0px 10px;
+    padding-bottom: 10px;
+    background-color: rgb(190, 224, 224);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.Books-section{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pX;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.table,th,tr,td {
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+
+.table{
+    width: 100%;
+}
+
+td {
+    padding-left: 5px;
+}
+.Register-section{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pX;
+}
+
+.tb {
+    width: 95%;
+}
+
+label {
+    width: 100%;
+}
+input {
+    height: 30px;
+    width: 99%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.button {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(102, 102, 235);
+    padding-left: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.button:hover {
+        background-color: #575757;
+        color: white;
+}
